@@ -1,6 +1,8 @@
 require 'simplecov'
 require 'webmock/rspec'
+require 'fitting'
 
+Fitting.logger
 SimpleCov.start 'rails'
 WebMock.disable_net_connect!(allow_localhost: true)
 

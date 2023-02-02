@@ -1,0 +1,11 @@
+APIs:
+  - host: www.example.com
+    type: openapi2
+    path: swagger/swagger.json
+
+Debug:
+  - host: www.example.com
+    method: POST
+    path: /platform/api/v1/accounts
+    code: 200
+    content-type: application/json

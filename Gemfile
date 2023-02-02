@@ -199,6 +199,8 @@ group :development, :test do
   gem 'simplecov', '0.17.1', require: false
   gem 'spring'
   gem 'spring-watcher-listen'
+  gem 'fitting', path: '/Users/efimov/kvantera/fitting'
+  gem 'tomograph', path: '/Users/efimov/kvantera/tomograph'
 end
 # worked with microsoft refresh token
 gem 'omniauth-oauth2'
